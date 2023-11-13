@@ -8,8 +8,8 @@ from GenerateSignature import generateSignature
 class EncodeImageClass:
     progress = 0
     finished = False
-    success=False
-    reason="Working..."
+    success = False
+    reason = "Working..."
 
     def EncodeImageMethod(self, coverImagePath, messageFilePath, outputImageDestination):
 
